@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 
-const PageLayout = ({ children }) => {
+const Page = ({ children }) => {
   return (
     <main>
       <Header />
@@ -12,4 +12,4 @@ const PageLayout = ({ children }) => {
   );
 };
 
-export default PageLayout;
+export default Page;
