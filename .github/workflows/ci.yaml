@@ -1,11 +1,14 @@
 name: build cozy frontend app
 on: [push]
 jobs:
-  lint:
+  lint_and_build:
     name: Lint & build app
     run-on: ubuntu-latest
 
   steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
     - name: Run lint
       run: npm run lint
 
