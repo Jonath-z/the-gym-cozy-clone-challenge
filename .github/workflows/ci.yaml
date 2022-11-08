@@ -1,0 +1,13 @@
+name: build cozy frontend app
+on: [push]
+jobs:
+  lint:
+    name: Lint & build app
+    run-on: ubuntu-latest
+
+  steps:
+    - name: Run lint
+      run: npm run lint
+
+    - name: Build app
+      run: npm run build
