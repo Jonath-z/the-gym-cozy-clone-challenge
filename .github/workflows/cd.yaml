@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Checkout Code
-        use: actions/checkout@v3
+        uses: actions/checkout@v3
 
       - name: Install vercel CLI
         run: npm install --global vercel@canary
