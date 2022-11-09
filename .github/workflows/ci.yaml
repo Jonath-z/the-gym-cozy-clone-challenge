@@ -1,0 +1,19 @@
+name: build cozy frontend app
+on: [push]
+jobs:
+  lint_and_build:
+    name: Lint & build app
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: npm i
+
+      - name: Run lint
+        run: npm run lint
+
+      - name: Build app
+        run: npm run build
