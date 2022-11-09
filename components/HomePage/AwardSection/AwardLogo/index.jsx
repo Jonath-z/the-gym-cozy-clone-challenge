@@ -17,7 +17,7 @@ const awardSet2 = [
 
 const AwardLogo = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-center md:space-x-32 items-center mt-24 relative">
+    <div className="flex flex-col md:flex-row justify-center lg:gap-16 md:space-x-32 lg:space-x-0 items-center mt-24 xl:mt-0 relative">
       <div className="flex flex-col gap-10">
         {awardSet1.map((src, index) => {
           return (

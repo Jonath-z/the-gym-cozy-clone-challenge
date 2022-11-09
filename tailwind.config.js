@@ -20,6 +20,7 @@ module.exports = {
         18: "18px",
         20: "20px",
         22: "22px",
+        25: "25px",
         30: "30px",
         37: "37px",
         39: "39px",
@@ -38,18 +39,24 @@ module.exports = {
         100: "6.25rem",
         50: "3.125rem",
         60: "3.75rem",
+        120: "7.5rem",
         140: "8.75rem",
         358: "22.375rem",
         593: "37.063rem",
+        641: "40.063rem",
+        846: "52.875rem",
       },
 
       height: {
         68: "4.291rem",
         50: "3.125rem",
+        101: "6.313rem",
         120: "7.5rem",
         smaller: "3px",
         364: "22.75rem",
         603: "37.688rem",
+        804: "50.25rem",
+        860: "53.75rem",
       },
 
       maxWidth: {
@@ -57,6 +64,8 @@ module.exports = {
         710: "44.375rem",
         "8/10": "83%",
         408: "25.5rem",
+        1200: "75rem",
+        1400: "87.5rem",
       },
 
       padding: {
@@ -80,6 +89,7 @@ module.exports = {
       colors: {
         "primary-chocolate": "#d4ac8e",
         "secondary-chocolate": "#c47d57",
+        "icon-chocolate": "#7c4e49",
         "hero-text": "#e4ded5",
         "dark-chocolate": "#b55730",
         "primary-blue": "#223240",
@@ -95,6 +105,7 @@ module.exports = {
         "start-red": "#FF3D2E",
         "BBB-slate": "#2d4850",
         "card-slate": "#2E464D",
+        "arrow-gray": "#7E8290",
       },
       backgroundImage: {
         primary: "linear-gradient(270deg,#302f39,#223240 95%);",

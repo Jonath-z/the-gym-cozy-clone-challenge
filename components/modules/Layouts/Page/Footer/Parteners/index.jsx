@@ -4,8 +4,8 @@ import Star from "../../../../Icons/Star";
 
 const Parteners = () => {
   return (
-    <div className="justify-center items-center">
-      <div className="grid grid-cols-2 grid-rows-2 gap-5 space-x-3 justify-center items-center w-fit max-w-max px-5">
+    <div>
+      <div className="grid grid-cols-2 grid-rows-2 gap-5 xl:flex space-x-3 justify-center items-center w-fit max-w-max px-5">
         <div className="w-fit">
           <Image
             src="/vectors/AccreditedBusiness .svg"
@@ -25,7 +25,7 @@ const Parteners = () => {
             alt="accredited business logo"
           />
         </div>
-        <div className="col-span-2 mt-2">
+        <div className="col-span-2 mt-2 xl:mt-0">
           <div className="bg-white flex gap-2 h-[43px] rounded-bl-3xl rounded-tr-3xl w-fit">
             <div className="h-full w-50 bg-clutch-dark-blue flex justify-center items-center rounded-tr-3xl rounded-bl-3xl border-b border-gray-600">
               <Image
@@ -38,7 +38,7 @@ const Parteners = () => {
             <div className="flex flex-col pt-1 pr-4">
               <div className="flex gap-2 items-center">
                 <span className="text-[15px]">5.0</span>
-                <span className="flex ">
+                <span className="flex">
                   {[...Array(5).keys()].map((_, index) => {
                     return (
                       <Star key={index} className="w-4 h-4 fill-start-red" />
